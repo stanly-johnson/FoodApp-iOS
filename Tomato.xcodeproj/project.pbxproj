@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183759381F5FB92700885654 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183759371F5FB92700885654 /* main.m */; };
+		1837593B1F5FB92700885654 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837593A1F5FB92700885654 /* AppDelegate.m */; };
+		1837593E1F5FB92700885654 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837593D1F5FB92700885654 /* ViewController.m */; };
+		183759411F5FB92700885654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1837593F1F5FB92700885654 /* Main.storyboard */; };
+		183759441F5FB92800885654 /* Tomato.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 183759421F5FB92800885654 /* Tomato.xcdatamodeld */; };
+		183759461F5FB92800885654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183759451F5FB92800885654 /* Assets.xcassets */; };
+		183759491F5FB92800885654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183759471F5FB92800885654 /* LaunchScreen.storyboard */; };
+		183759511F5FBBFE00885654 /* tomato-vegetable.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 183759501F5FBBFE00885654 /* tomato-vegetable.jpg */; };
+		183759531F5FBCCC00885654 /* 34-tomato-png-image-picture-download.png in Resources */ = {isa = PBXBuildFile; fileRef = 183759521F5FBCCC00885654 /* 34-tomato-png-image-picture-download.png */; };
+		183759561F5FC5DA00885654 /* SignUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 183759551F5FC5DA00885654 /* SignUp.m */; };
+		183759591F5FC86700885654 /* LogIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 183759581F5FC86700885654 /* LogIn.m */; };
+		1837595C1F5FD16700885654 /* ItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837595B1F5FD16700885654 /* ItemList.m */; };
+		1837595E1F5FFA7400885654 /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837595D1F5FFA7400885654 /* burger.png */; };
+		183759601F5FFCBA00885654 /* sandwichone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837595F1F5FFCBA00885654 /* sandwichone.png */; };
+		183759621F5FFCC100885654 /* sandwichtwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 183759611F5FFCC100885654 /* sandwichtwo.png */; };
+		183759681F5FFF2400885654 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183759671F5FFF2400885654 /* TableViewCell.m */; };
+		1837596E1F601BEC00885654 /* OrderCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837596D1F601BEC00885654 /* OrderCompletion.m */; };
+		18A8F93F1F60FAD000E29901 /* Confirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A8F93E1F60FACF00E29901 /* Confirmation.m */; };
+		18A8F9411F6116E600E29901 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 18A8F9401F6116E600E29901 /* AppIcon.appiconset */; };
+		18A8F9431F6117CB00E29901 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A8F9421F6117CB00E29901 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183759331F5FB92700885654 /* Tomato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tomato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183759371F5FB92700885654 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		183759391F5FB92700885654 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1837593A1F5FB92700885654 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1837593C1F5FB92700885654 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1837593D1F5FB92700885654 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		183759401F5FB92700885654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		183759431F5FB92800885654 /* Tomato.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tomato.xcdatamodel; sourceTree = "<group>"; };
+		183759451F5FB92800885654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		183759481F5FB92800885654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1837594A1F5FB92800885654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183759501F5FBBFE00885654 /* tomato-vegetable.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tomato-vegetable.jpg"; sourceTree = "<group>"; };
+		183759521F5FBCCC00885654 /* 34-tomato-png-image-picture-download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "34-tomato-png-image-picture-download.png"; sourceTree = "<group>"; };
+		183759541F5FC5DA00885654 /* SignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUp.h; sourceTree = "<group>"; };
+		183759551F5FC5DA00885654 /* SignUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUp.m; sourceTree = "<group>"; };
+		183759571F5FC86700885654 /* LogIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogIn.h; sourceTree = "<group>"; };
+		183759581F5FC86700885654 /* LogIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogIn.m; sourceTree = "<group>"; };
+		1837595A1F5FD16700885654 /* ItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemList.h; sourceTree = "<group>"; };
+		1837595B1F5FD16700885654 /* ItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemList.m; sourceTree = "<group>"; };
+		1837595D1F5FFA7400885654 /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burger.png; sourceTree = "<group>"; };
+		1837595F1F5FFCBA00885654 /* sandwichone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sandwichone.png; sourceTree = "<group>"; };
+		183759611F5FFCC100885654 /* sandwichtwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sandwichtwo.png; sourceTree = "<group>"; };
+		183759661F5FFF2400885654 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewCell.h; path = ../TableViewCell.h; sourceTree = "<group>"; };
+		183759671F5FFF2400885654 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewCell.m; path = ../TableViewCell.m; sourceTree = "<group>"; };
+		1837596C1F601BEC00885654 /* OrderCompletion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderCompletion.h; sourceTree = "<group>"; };
+		1837596D1F601BEC00885654 /* OrderCompletion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderCompletion.m; sourceTree = "<group>"; };
+		18A8F93D1F60FACF00E29901 /* Confirmation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Confirmation.h; sourceTree = "<group>"; };
+		18A8F93E1F60FACF00E29901 /* Confirmation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Confirmation.m; sourceTree = "<group>"; };
+		18A8F9401F6116E600E29901 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		18A8F9421F6117CB00E29901 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183759301F5FB92300885654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1837592A1F5FB92300885654 = {
+			isa = PBXGroup;
+			children = (
+				183759351F5FB92700885654 /* Tomato */,
+				183759341F5FB92700885654 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183759341F5FB92700885654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183759331F5FB92700885654 /* Tomato.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183759351F5FB92700885654 /* Tomato */ = {
+			isa = PBXGroup;
+			children = (
+				183759391F5FB92700885654 /* AppDelegate.h */,
+				1837593A1F5FB92700885654 /* AppDelegate.m */,
+				183759661F5FFF2400885654 /* TableViewCell.h */,
+				183759671F5FFF2400885654 /* TableViewCell.m */,
+				1837593C1F5FB92700885654 /* ViewController.h */,
+				1837593D1F5FB92700885654 /* ViewController.m */,
+				183759541F5FC5DA00885654 /* SignUp.h */,
+				183759551F5FC5DA00885654 /* SignUp.m */,
+				183759571F5FC86700885654 /* LogIn.h */,
+				183759581F5FC86700885654 /* LogIn.m */,
+				1837595A1F5FD16700885654 /* ItemList.h */,
+				1837595B1F5FD16700885654 /* ItemList.m */,
+				1837596C1F601BEC00885654 /* OrderCompletion.h */,
+				1837596D1F601BEC00885654 /* OrderCompletion.m */,
+				18A8F93D1F60FACF00E29901 /* Confirmation.h */,
+				18A8F93E1F60FACF00E29901 /* Confirmation.m */,
+				1837593F1F5FB92700885654 /* Main.storyboard */,
+				183759451F5FB92800885654 /* Assets.xcassets */,
+				18A8F9401F6116E600E29901 /* AppIcon.appiconset */,
+				183759471F5FB92800885654 /* LaunchScreen.storyboard */,
+				1837594A1F5FB92800885654 /* Info.plist */,
+				183759421F5FB92800885654 /* Tomato.xcdatamodeld */,
+				18A8F9421F6117CB00E29901 /* Images.xcassets */,
+				183759361F5FB92700885654 /* Supporting Files */,
+			);
+			path = Tomato;
+			sourceTree = "<group>";
+		};
+		183759361F5FB92700885654 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1837595F1F5FFCBA00885654 /* sandwichone.png */,
+				1837595D1F5FFA7400885654 /* burger.png */,
+				183759611F5FFCC100885654 /* sandwichtwo.png */,
+				183759521F5FBCCC00885654 /* 34-tomato-png-image-picture-download.png */,
+				183759501F5FBBFE00885654 /* tomato-vegetable.jpg */,
+				183759371F5FB92700885654 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183759321F5FB92300885654 /* Tomato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1837594D1F5FB92800885654 /* Build configuration list for PBXNativeTarget "Tomato" */;
+			buildPhases = (
+				1837592F1F5FB92300885654 /* Sources */,
+				183759301F5FB92300885654 /* Frameworks */,
+				183759311F5FB92300885654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tomato;
+			productName = Tomato;
+			productReference = 183759331F5FB92700885654 /* Tomato.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1837592B1F5FB92300885654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = reubro;
+				TargetAttributes = {
+					183759321F5FB92300885654 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1837592E1F5FB92300885654 /* Build configuration list for PBXProject "Tomato" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1837592A1F5FB92300885654;
+			productRefGroup = 183759341F5FB92700885654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183759321F5FB92300885654 /* Tomato */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183759311F5FB92300885654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1837595E1F5FFA7400885654 /* burger.png in Resources */,
+				18A8F9431F6117CB00E29901 /* Images.xcassets in Resources */,
+				183759531F5FBCCC00885654 /* 34-tomato-png-image-picture-download.png in Resources */,
+				183759491F5FB92800885654 /* LaunchScreen.storyboard in Resources */,
+				183759461F5FB92800885654 /* Assets.xcassets in Resources */,
+				18A8F9411F6116E600E29901 /* AppIcon.appiconset in Resources */,
+				183759601F5FFCBA00885654 /* sandwichone.png in Resources */,
+				183759621F5FFCC100885654 /* sandwichtwo.png in Resources */,
+				183759411F5FB92700885654 /* Main.storyboard in Resources */,
+				183759511F5FBBFE00885654 /* tomato-vegetable.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1837592F1F5FB92300885654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1837593E1F5FB92700885654 /* ViewController.m in Sources */,
+				1837595C1F5FD16700885654 /* ItemList.m in Sources */,
+				1837593B1F5FB92700885654 /* AppDelegate.m in Sources */,
+				183759561F5FC5DA00885654 /* SignUp.m in Sources */,
+				18A8F93F1F60FAD000E29901 /* Confirmation.m in Sources */,
+				183759591F5FC86700885654 /* LogIn.m in Sources */,
+				183759681F5FFF2400885654 /* TableViewCell.m in Sources */,
+				183759381F5FB92700885654 /* main.m in Sources */,
+				183759441F5FB92800885654 /* Tomato.xcdatamodeld in Sources */,
+				1837596E1F601BEC00885654 /* OrderCompletion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1837593F1F5FB92700885654 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183759401F5FB92700885654 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		183759471F5FB92800885654 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183759481F5FB92800885654 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1837594B1F5FB92800885654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1837594C1F5FB92800885654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1837594E1F5FB92800885654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tomato/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reubro.TMS.Tomato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1837594F1F5FB92800885654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tomato/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reubro.TMS.Tomato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1837592E1F5FB92300885654 /* Build configuration list for PBXProject "Tomato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1837594B1F5FB92800885654 /* Debug */,
+				1837594C1F5FB92800885654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1837594D1F5FB92800885654 /* Build configuration list for PBXNativeTarget "Tomato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1837594E1F5FB92800885654 /* Debug */,
+				1837594F1F5FB92800885654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		183759421F5FB92800885654 /* Tomato.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				183759431F5FB92800885654 /* Tomato.xcdatamodel */,
+			);
+			currentVersion = 183759431F5FB92800885654 /* Tomato.xcdatamodel */;
+			path = Tomato.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1837592B1F5FB92300885654 /* Project object */;
+}
